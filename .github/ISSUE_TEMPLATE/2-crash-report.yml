@@ -16,7 +16,6 @@ body:
         - Day Counter
         - Ping Display
         - TabbyLib
-        - Tabby Shaders
     validations:
       required: true
 
@@ -44,7 +43,6 @@ body:
         - Fabric
         - NeoForge
         - Forge
-        - Iris (shaders)
         - Other
     validations:
       required: true
@@ -70,7 +68,7 @@ body:
     id: mods
     attributes:
       label: Other mods
-      description: Other mods or shaderpacks you use. Does the crash also happen without them?
+      description: Other mods you use. Does the crash also happen without them?
 
   - type: checkboxes
     id: checks

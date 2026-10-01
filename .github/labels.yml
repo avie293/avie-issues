@@ -35,6 +35,3 @@
 - name: "project: tabbylib"
   color: 8e24aa
   description: TabbyLib
-- name: "project: tabby-shaders"
-  color: 1e88e5
-  description: Tabby Shaders

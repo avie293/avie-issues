@@ -19,7 +19,6 @@ jobs:
               "Day Counter": "project: day-counter",
               "Ping Display": "project: ping-display",
               "TabbyLib": "project: tabbylib",
-              "Tabby Shaders": "project: tabby-shaders",
             };
             const issue = context.payload.issue;
             const match = (issue.body || "").match(/### Project\r?\n\s*([^\n]+)/);

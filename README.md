@@ -8,11 +8,10 @@ Bug reports, crash reports and feature requests for all of Avie's projects.
 
 | Project | Description | Source |
 |---|---|---|
-| Avies Waypoints | Waypoints in the world, shareable in chat (also with Xaero's Minimap) | [avies-waypoints](https://github.com/avie293/avies-waypoints) |
-| Day Counter | A highly customizable day counter | [day-counter](https://github.com/avie293/day-counter) |
-| Ping Display | A simple ping display with configurable colors | [ping-display](https://github.com/avie293/ping-display) |
-| TabbyLib | The config library for Avie's mods | [tabbylib](https://github.com/avie293/tabbylib) |
-| Tabby Shaders | A fast Iris shaderpack in the style of BSL | [tabby-shaders](https://github.com/avie293/tabby-shaders) |
+| Avies Waypoints | Set waypoints in your world and find your way back to them. | [avies-waypoints](https://github.com/avie293/avies-waypoints) |
+| Day Counter | A highly Customizable Day Counter Mod | [day-counter](https://github.com/avie293/day-counter) |
+| Ping Display | A simple ping display with fully configurable colour settings. | [ping-display](https://github.com/avie293/ping-display) |
+| TabbyLib | A Config Library for Avies Mods | [tabbylib](https://github.com/avie293/tabbylib) |
 
 ## Before you open an issue
 
