@@ -1,0 +1,101 @@
+name: Bug Report
+description: Something does not work as it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the form as well as you can.
+        For crashes please use the **Crash Report** form instead.
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      options:
+        - Avies Waypoints
+        - Day Counter
+        - Ping Display
+        - TabbyLib
+        - Tabby Shaders
+    validations:
+      required: true
+
+  - type: input
+    id: project-version
+    attributes:
+      label: Project version
+      description: The version of the mod or shaderpack, e.g. 1.0.0
+      placeholder: 1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: Minecraft version
+      placeholder: "26.2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: loader
+    attributes:
+      label: Loader
+      options:
+        - Fabric
+        - NeoForge
+        - Forge
+        - Iris (shaders)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug. Screenshots or videos help a lot.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the waypoint list
+        2. Click on ...
+        3. ...
+    validations:
+      required: true
+
+  - type: input
+    id: log
+    attributes:
+      label: Log
+      description: Upload your latest.log (in .minecraft/logs) to [mclo.gs](https://mclo.gs/) and paste the link
+      placeholder: https://mclo.gs/...
+
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods
+      description: Other mods or shaderpacks you use. Does the bug also happen without them?
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I use the latest version of the project
+          required: true
+        - label: I searched the existing issues and this bug was not reported yet
+          required: true

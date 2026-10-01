@@ -1,0 +1,40 @@
+- name: bug
+  color: d73a4a
+  description: Something does not work as it should
+- name: crash
+  color: b60205
+  description: The game crashes or does not start
+- name: enhancement
+  color: a2eeef
+  description: New feature or improvement
+- name: needs info
+  color: fbca04
+  description: More information is needed
+- name: confirmed
+  color: 0e8a16
+  description: The problem could be reproduced
+- name: fixed in next version
+  color: 1d76db
+  description: Fixed, will be in the next release
+- name: duplicate
+  color: cfd3d7
+  description: This issue already exists
+- name: wontfix
+  color: ffffff
+  description: This will not be changed
+
+- name: "project: avies-waypoints"
+  color: e04d60
+  description: Avies Waypoints
+- name: "project: day-counter"
+  color: f9a825
+  description: Day Counter
+- name: "project: ping-display"
+  color: 43a047
+  description: Ping Display
+- name: "project: tabbylib"
+  color: 8e24aa
+  description: TabbyLib
+- name: "project: tabby-shaders"
+  color: 1e88e5
+  description: Tabby Shaders

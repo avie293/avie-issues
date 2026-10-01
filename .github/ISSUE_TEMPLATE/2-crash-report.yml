@@ -1,0 +1,83 @@
+name: Crash Report
+description: The game crashes or does not start
+labels: ["crash"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sorry that the game crashed! The crash report is the most important part, without it the crash can rarely be fixed.
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      options:
+        - Avies Waypoints
+        - Day Counter
+        - Ping Display
+        - TabbyLib
+        - Tabby Shaders
+    validations:
+      required: true
+
+  - type: input
+    id: project-version
+    attributes:
+      label: Project version
+      placeholder: 1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: Minecraft version
+      placeholder: "26.2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: loader
+    attributes:
+      label: Loader
+      options:
+        - Fabric
+        - NeoForge
+        - Forge
+        - Iris (shaders)
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: crash-report
+    attributes:
+      label: Crash report
+      description: Upload the crash report (in .minecraft/crash-reports) or your latest.log (in .minecraft/logs) to [mclo.gs](https://mclo.gs/) and paste the link
+      placeholder: https://mclo.gs/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: When does it crash?
+      description: What did you do right before the crash? Does it happen every time?
+    validations:
+      required: true
+
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods
+      description: Other mods or shaderpacks you use. Does the crash also happen without them?
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I use the latest version of the project
+          required: true
+        - label: I searched the existing issues and this crash was not reported yet
+          required: true

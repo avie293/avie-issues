@@ -1,0 +1,46 @@
+name: Feature Request
+description: An idea for a new feature or an improvement
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      options:
+        - Avies Waypoints
+        - Day Counter
+        - Ping Display
+        - TabbyLib
+        - Tabby Shaders
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should be added or changed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why?
+      description: What would it help you with? Which problem does it solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Other ways to solve it, or other mods that already do something similar
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the existing issues and this idea was not suggested yet
+          required: true
