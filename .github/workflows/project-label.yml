@@ -19,6 +19,7 @@ jobs:
               "Day Counter": "project: day-counter",
               "Ping Display": "project: ping-display",
               "TabbyLib": "project: tabbylib",
+              "From The Fog Port": "project: fromthefog-port"
             };
             const issue = context.payload.issue;
             const match = (issue.body || "").match(/### Project\r?\n\s*([^\n]+)/);
