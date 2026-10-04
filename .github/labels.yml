@@ -35,6 +35,6 @@
 - name: "project: tabbylib"
   color: 8e24aa
   description: TabbyLib
-- name: "project: from-the-fog"
+- name: "project: fromthefog-port"
   color: 3d24aa
   description: From The Fog Port
