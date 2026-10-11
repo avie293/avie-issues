@@ -16,7 +16,7 @@ body:
         - Day Counter
         - Ping Display
         - TabbyLib
-        - From The Fog Port
+        - Shader Fps Slider
     validations:
       required: true
 
