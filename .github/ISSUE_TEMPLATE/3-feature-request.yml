@@ -12,6 +12,7 @@ body:
         - Ping Display
         - TabbyLib
         - Shader Fps Slider
+        - Tabby Zoom
     validations:
       required: true
 
