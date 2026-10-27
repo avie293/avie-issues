@@ -38,3 +38,6 @@
 - name: "project: Shader-Fps-Slider"
   color: 3d24aa
   description: Shader Fps Slider
+- name: "project: tabby-zoom"
+  color: ffffff
+  description: Tabby Zoom
