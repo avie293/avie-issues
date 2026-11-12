@@ -13,6 +13,7 @@ body:
         - TabbyLib
         - Shader Fps Slider
         - Tabby Zoom
+        - Orbit
     validations:
       required: true
 

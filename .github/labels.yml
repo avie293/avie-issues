@@ -41,3 +41,6 @@
 - name: "project: tabby-zoom"
   color: ffffff
   description: Tabby Zoom
+- name: "project: orbit-vfx"
+  color: 1e88e5
+  description: Orbit
