@@ -19,6 +19,7 @@ body:
         - Shader Fps Slider
         - Tabby Zoom
         - Orbit
+        - Better UI
     validations:
       required: true
 

@@ -44,3 +44,6 @@
 - name: "project: orbit-vfx"
   color: 1e88e5
   description: Orbit
+- name: "project: better-ui"
+  color: 00897b
+  description: Better UI

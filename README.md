@@ -15,6 +15,7 @@ Bug reports, crash reports and feature requests for all of Avie's projects.
 | Shader Fps Slider | A separate Max Framerate that is used while a shader pack is active. | [Shader Fps Slider](https://github.com/avie293/Shader-Fps-Slider) |
 | Tabby Zoom | This mod adds a simple and smooth zoom to the game. | [Tabby Zoom](https://github.com/avie293/tabby-zoom) |
 | Orbit | Client-side visual effects. | [orbit-vfx](https://github.com/avie293/orbit-vfx) |
+| Better UI | A cleaner, customizable HUD and a fresh look for Palworld's menus. | [better-ui](https://github.com/avie293/better-ui) |
 
 
 ## Before you open an issue
