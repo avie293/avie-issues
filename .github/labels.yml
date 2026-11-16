@@ -47,3 +47,6 @@
 - name: "project: better-ui"
   color: 00897b
   description: Better UI
+- name: "project: tabby-rpc"
+  color: 6d4c41
+  description: Tabby RPC

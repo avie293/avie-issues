@@ -21,6 +21,7 @@ body:
         - Tabby Zoom
         - Orbit
         - Better UI
+        - Tabby RPC
     validations:
       required: true
 
